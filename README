@@ -1,1 +1,5 @@
 Control for iOS apps that imitates Javascript radio group behavior
+
+1) Copy the whole 'MNMRadioGroup' folder into your project
+
+2) Look at 'MNMRGDViewController' to use the control
