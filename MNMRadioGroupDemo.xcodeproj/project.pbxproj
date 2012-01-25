@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5795BCBF14D03C2600CF9F70 /* MNMRadioGroupSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5795BCBB14D03C2500CF9F70 /* MNMRadioGroupSelected.png */; };
+		5795BCC014D03C2600CF9F70 /* MNMRadioGroupSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5795BCBC14D03C2500CF9F70 /* MNMRadioGroupSelected@2x.png */; };
+		5795BCC114D03C2600CF9F70 /* MNMRadioGroupUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5795BCBD14D03C2500CF9F70 /* MNMRadioGroupUnselected.png */; };
+		5795BCC214D03C2600CF9F70 /* MNMRadioGroupUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5795BCBE14D03C2500CF9F70 /* MNMRadioGroupUnselected@2x.png */; };
+		5799A03A14CEE88500093D25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A03914CEE88500093D25 /* UIKit.framework */; };
+		5799A03C14CEE88500093D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A03B14CEE88500093D25 /* Foundation.framework */; };
+		5799A03E14CEE88500093D25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A03D14CEE88500093D25 /* CoreGraphics.framework */; };
+		5799A04414CEE88500093D25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5799A04214CEE88500093D25 /* InfoPlist.strings */; };
+		5799A04614CEE88500093D25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799A04514CEE88500093D25 /* main.m */; };
+		5799A04A14CEE88500093D25 /* MNMRGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799A04914CEE88500093D25 /* MNMRGDAppDelegate.m */; };
+		5799A04D14CEE88500093D25 /* MNMRGDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799A04C14CEE88500093D25 /* MNMRGDViewController.m */; };
+		5799A05014CEE88500093D25 /* MNMRGDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5799A04E14CEE88500093D25 /* MNMRGDViewController.xib */; };
+		57F5865F14CEEA250089E916 /* MNMRadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F5865E14CEEA250089E916 /* MNMRadioGroup.m */; };
+		57F5866614CEEBBF0089E916 /* MNMRadioGroupValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F5866514CEEBBF0089E916 /* MNMRadioGroupValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5795BCBB14D03C2500CF9F70 /* MNMRadioGroupSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MNMRadioGroupSelected.png; sourceTree = "<group>"; };
+		5795BCBC14D03C2500CF9F70 /* MNMRadioGroupSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MNMRadioGroupSelected@2x.png"; sourceTree = "<group>"; };
+		5795BCBD14D03C2500CF9F70 /* MNMRadioGroupUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MNMRadioGroupUnselected.png; sourceTree = "<group>"; };
+		5795BCBE14D03C2500CF9F70 /* MNMRadioGroupUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MNMRadioGroupUnselected@2x.png"; sourceTree = "<group>"; };
+		5799A03514CEE88500093D25 /* MNMRadioGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNMRadioGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5799A03914CEE88500093D25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5799A03B14CEE88500093D25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5799A03D14CEE88500093D25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5799A04114CEE88500093D25 /* MNMRadioGroupDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MNMRadioGroupDemo-Info.plist"; sourceTree = "<group>"; };
+		5799A04314CEE88500093D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5799A04514CEE88500093D25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5799A04714CEE88500093D25 /* MNMRadioGroupDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MNMRadioGroupDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5799A04814CEE88500093D25 /* MNMRGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNMRGDAppDelegate.h; sourceTree = "<group>"; };
+		5799A04914CEE88500093D25 /* MNMRGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNMRGDAppDelegate.m; sourceTree = "<group>"; };
+		5799A04B14CEE88500093D25 /* MNMRGDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNMRGDViewController.h; sourceTree = "<group>"; };
+		5799A04C14CEE88500093D25 /* MNMRGDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNMRGDViewController.m; sourceTree = "<group>"; };
+		5799A04F14CEE88500093D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MNMRGDViewController.xib; sourceTree = "<group>"; };
+		57F5865D14CEEA250089E916 /* MNMRadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMRadioGroup.h; sourceTree = "<group>"; };
+		57F5865E14CEEA250089E916 /* MNMRadioGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMRadioGroup.m; sourceTree = "<group>"; };
+		57F5866414CEEBBF0089E916 /* MNMRadioGroupValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMRadioGroupValue.h; sourceTree = "<group>"; };
+		57F5866514CEEBBF0089E916 /* MNMRadioGroupValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMRadioGroupValue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5799A03214CEE88400093D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799A03A14CEE88500093D25 /* UIKit.framework in Frameworks */,
+				5799A03C14CEE88500093D25 /* Foundation.framework in Frameworks */,
+				5799A03E14CEE88500093D25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5795BCBA14D03C2500CF9F70 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5795BCBB14D03C2500CF9F70 /* MNMRadioGroupSelected.png */,
+				5795BCBC14D03C2500CF9F70 /* MNMRadioGroupSelected@2x.png */,
+				5795BCBD14D03C2500CF9F70 /* MNMRadioGroupUnselected.png */,
+				5795BCBE14D03C2500CF9F70 /* MNMRadioGroupUnselected@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5799A02A14CEE88400093D25 = {
+			isa = PBXGroup;
+			children = (
+				5799A03F14CEE88500093D25 /* MNMRadioGroupDemo */,
+				5799A03814CEE88500093D25 /* Frameworks */,
+				5799A03614CEE88500093D25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5799A03614CEE88500093D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5799A03514CEE88500093D25 /* MNMRadioGroupDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5799A03814CEE88500093D25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5799A03914CEE88500093D25 /* UIKit.framework */,
+				5799A03B14CEE88500093D25 /* Foundation.framework */,
+				5799A03D14CEE88500093D25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5799A03F14CEE88500093D25 /* MNMRadioGroupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57F5865C14CEEA250089E916 /* MNMRadioGroup */,
+				5799A04814CEE88500093D25 /* MNMRGDAppDelegate.h */,
+				5799A04914CEE88500093D25 /* MNMRGDAppDelegate.m */,
+				5799A04B14CEE88500093D25 /* MNMRGDViewController.h */,
+				5799A04C14CEE88500093D25 /* MNMRGDViewController.m */,
+				5799A04E14CEE88500093D25 /* MNMRGDViewController.xib */,
+				5799A04014CEE88500093D25 /* Supporting Files */,
+			);
+			path = MNMRadioGroupDemo;
+			sourceTree = "<group>";
+		};
+		5799A04014CEE88500093D25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5799A04114CEE88500093D25 /* MNMRadioGroupDemo-Info.plist */,
+				5799A04214CEE88500093D25 /* InfoPlist.strings */,
+				5799A04514CEE88500093D25 /* main.m */,
+				5799A04714CEE88500093D25 /* MNMRadioGroupDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F5865C14CEEA250089E916 /* MNMRadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5795BCBA14D03C2500CF9F70 /* Images */,
+				57F5865D14CEEA250089E916 /* MNMRadioGroup.h */,
+				57F5865E14CEEA250089E916 /* MNMRadioGroup.m */,
+				57F5866414CEEBBF0089E916 /* MNMRadioGroupValue.h */,
+				57F5866514CEEBBF0089E916 /* MNMRadioGroupValue.m */,
+			);
+			path = MNMRadioGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5799A03414CEE88400093D25 /* MNMRadioGroupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5799A05314CEE88500093D25 /* Build configuration list for PBXNativeTarget "MNMRadioGroupDemo" */;
+			buildPhases = (
+				5799A03114CEE88400093D25 /* Sources */,
+				5799A03214CEE88400093D25 /* Frameworks */,
+				5799A03314CEE88400093D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNMRadioGroupDemo;
+			productName = MNMRadioGroupDemo;
+			productReference = 5799A03514CEE88500093D25 /* MNMRadioGroupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5799A02C14CEE88400093D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5799A02F14CEE88400093D25 /* Build configuration list for PBXProject "MNMRadioGroupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5799A02A14CEE88400093D25;
+			productRefGroup = 5799A03614CEE88500093D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5799A03414CEE88400093D25 /* MNMRadioGroupDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5799A03314CEE88400093D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799A04414CEE88500093D25 /* InfoPlist.strings in Resources */,
+				5799A05014CEE88500093D25 /* MNMRGDViewController.xib in Resources */,
+				5795BCBF14D03C2600CF9F70 /* MNMRadioGroupSelected.png in Resources */,
+				5795BCC014D03C2600CF9F70 /* MNMRadioGroupSelected@2x.png in Resources */,
+				5795BCC114D03C2600CF9F70 /* MNMRadioGroupUnselected.png in Resources */,
+				5795BCC214D03C2600CF9F70 /* MNMRadioGroupUnselected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5799A03114CEE88400093D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799A04614CEE88500093D25 /* main.m in Sources */,
+				5799A04A14CEE88500093D25 /* MNMRGDAppDelegate.m in Sources */,
+				5799A04D14CEE88500093D25 /* MNMRGDViewController.m in Sources */,
+				57F5865F14CEEA250089E916 /* MNMRadioGroup.m in Sources */,
+				57F5866614CEEBBF0089E916 /* MNMRadioGroupValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5799A04214CEE88500093D25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5799A04314CEE88500093D25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5799A04E14CEE88500093D25 /* MNMRGDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5799A04F14CEE88500093D25 /* en */,
+			);
+			name = MNMRGDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5799A05114CEE88500093D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5799A05214CEE88500093D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5799A05414CEE88500093D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MNMRadioGroupDemo/MNMRadioGroupDemo-Prefix.pch";
+				INFOPLIST_FILE = "MNMRadioGroupDemo/MNMRadioGroupDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5799A05514CEE88500093D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MNMRadioGroupDemo/MNMRadioGroupDemo-Prefix.pch";
+				INFOPLIST_FILE = "MNMRadioGroupDemo/MNMRadioGroupDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5799A02F14CEE88400093D25 /* Build configuration list for PBXProject "MNMRadioGroupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5799A05114CEE88500093D25 /* Debug */,
+				5799A05214CEE88500093D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5799A05314CEE88500093D25 /* Build configuration list for PBXNativeTarget "MNMRadioGroupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5799A05414CEE88500093D25 /* Debug */,
+				5799A05514CEE88500093D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5799A02C14CEE88400093D25 /* Project object */;
+}
